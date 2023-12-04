@@ -11,6 +11,7 @@ def jogar():
     enforcou = False
     acertou = False
     erros = 0
+    letra_errada = []
 
     while(not enforcou and not acertou):
 
@@ -20,9 +21,13 @@ def jogar():
             marca_chute_correto(chute, letras_acertadas, palavra_secreta)
         else:
             erros += 1
+            letra_errada.append(chute)
+            letras_erradas = "Você errou essas letras: " + ', '.join(letra_errada)
+            print(letras_erradas)
             desenha_forca(erros)
 
         enforcou = erros == 7
+
         acertou = "_" not in letras_acertadas
 
         print(letras_acertadas)
