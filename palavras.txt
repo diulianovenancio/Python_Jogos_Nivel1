@@ -26,7 +26,7 @@ Deinonychus
 Sauropodomorpha
 Stegosaurus
 Tyrannosaurus
-Diplodocus
+Diplodoco
 Oryx
 Quokka
 Axolote
@@ -35,6 +35,6 @@ Narval
 Okapi
 Xaxim
 Uacari
-Lêmure
+Lemure
 Urutu
 Urubu
